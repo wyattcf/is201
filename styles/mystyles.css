@@ -1,7 +1,19 @@
+body{
+    background-color: black;
+  
+
+}
+img{
+    border: 3px solid rgb(252, 251, 251);
+    padding: 10px;
+    margin: 10px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
 .myfont{
     font-family: 'Courier New', Courier, monospace;
-    
-
 }
 .mysubfont{
     font-family: Arial, Helvetica, sans-serif;
@@ -10,6 +22,7 @@
 .myimg{
     width: 50% !important;
     border: 5px black solid !important;
+    margin-top: 20px;
 }
 
 .myitalics{
@@ -42,18 +55,21 @@
 }
 .scratchheader{
     text-align: right ;
+    color: white !important;
+    background-color: black;
+   
 }
 .scratchdefault{
     background-image: url("../img/bg.jpg");
+    background-attachment: fixed;
     background-size: cover;
-    background-position:  center;
+    background-position: center;
 
     }
 
 .tabcutout{
     text-align: center ;
     margin-left: 22%;
-
     margin-top: 30px;
     
     
@@ -82,4 +98,32 @@
     color: black;
     background-color: antiquewhite;
     text-align: center;
+}
+.shead{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+}
+
+.myimages{
+    max-width:  30%;
+    text-align: center;
+    
+}
+.common{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    background-color: aliceblue;
+    border: 2px solid black;
+    padding: 5px;
+    margin:5px;
+}
+.body{
+    border: initial;
+    background-color: initial;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;  
+    margin-bottom: 25px; 
 }
