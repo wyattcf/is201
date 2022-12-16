@@ -1,5 +1,6 @@
 .myfont{
     font-family: 'Courier New', Courier, monospace;
+    
 
 }
 .mysubfont{
@@ -16,6 +17,9 @@
 }
 .myresume{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+    color: black;
+    border: black 5px solid;
     
 
 }
@@ -35,4 +39,47 @@
 .myheader{
     text-decoration: underline ;
 
+}
+.scratchheader{
+    text-align: right ;
+}
+.scratchdefault{
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position:  center;
+
+    }
+
+.tabcutout{
+    text-align: center ;
+    margin-left: 22%;
+
+    margin-top: 30px;
+    
+    
+}
+.mylist{
+    text-align: left;
+    background-color: antiquewhite;
+    color: black;
+    border: black 2px solid ;
+    margin-left: 30%;
+    margin-right: 34%;
+}
+.myfooter{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    color: black;
+    background-color: bisque;
+    margin-top: 8px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 0px ;
+}
+.tag{
+    margin-left: 40%;
+    margin-right: 40%;
+    color: black;
+    background-color: antiquewhite;
+    text-align: center;
 }
